@@ -1,0 +1,14 @@
+# Залежності (ігноруємо node_modules на всіх рівнях)
+node_modules/
+**/node_modules/
+
+# Конфіденційні файли
+.env
+*.local
+
+# Збірки та тимчасові файли
+dist/
+build/
+bin/
+obj/
+*.log
